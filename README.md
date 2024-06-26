@@ -11,6 +11,35 @@ por su orden de URGENCIA, IMPORTANCIA, así el usuario las puede programar por e
 
 - La aplicación está construida utilizando React.js, aplicando CSS para el desarrollo de sus estilos para la parte del frontend.
 
-- En el backend se ha usado JavasScript de l que se han usado Node.js para desarrollar la API con la que se obtuvo la conexión a la base de datos, aqui se uso express, CORS, mongosse para obtener una óptima comunicación entre la aplicación y la base de datos.
+- En el backend se utiliza JavaScript, de la que se ha usado Node.js para desarrollar la API con la que se obtuvo la conexión a la base de datos, aqui se uso express, CORS, mongoose para obtener una óptima comunicación entre la aplicación y la base de datos.
 
-- Para la base de datos se construyó un cluster en MongoDB Atlas el cual es una excelente herramienta para la construción de base de datos no relacionales y que genera un gran interacción en la aplicación y al usuario, facilitando asi el almacenamiento y durabilidad de la informcaión.
+- Para la base de datos se construyó un cluster en MongoDB Atlas el cual es una excelente herramienta para la construcción de base de datos no relacionales y que genera un gran interacción en la aplicación y al usuario, facilitando asi el almacenamiento y durabilidad de la información.
+
+ ## Instalación:
+
+. Clona el repositorio en tu dispositivo local [https://github.com/311609/My-Agenda-React.git].
+. Navega hasta el directorio del proyecto.
+. Ejecuta "npm install" para instalar las dependencias.
+. Ejecuta "npm run dev" para iniciar la aplicación en modo de desarrollo.
+. Abre [http://localhost:3000] en tu navegador para ver la aplicación.
+
+
+## Configuración del Entorno
+
+# example.env para la conexión a tu base de datos
+
+- Crea un archivo `.env` en la raíz del proyecto y añade la siguiente variable de entorno:
+
+MONGO_URI=your_URL-cluster
+
+# example.env para hacer login en la aplicación y poder utilizarla 
+
+- Crea un archivo `.env` en la raíz del proyecto y añade las siguientes variables de entorno:
+
+VITE_REACT_APP_USERNAME=your_email
+VITE_REACT_APP_PASSWORD=your_password
+
+
+## Si quieres contribuir con este proyecto:
+
+- Sientete libre de hacer un fork y enviar un pull request. Estaré encantado de revisarlo. 
